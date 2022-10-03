@@ -1,0 +1,40 @@
+.Grid_Dos {
+    width: 800px;
+    height: 700px;
+    display: grid;
+}   
+.uno {
+    
+    width: 945px;
+    font-size: 50px;
+    height: 990px;
+}
+.dos{
+    
+    width: 950px;
+    font-size: 50px;
+    height: 990px;
+
+}
+.uno {
+    
+    grid-column: 4/1;
+    grid-row: 4/1;
+    background-color: rgb(157, 48, 157);
+    text-align: left;
+}
+.dos {
+
+    text-align: right;
+    grid-column: 6/4;
+    grid-row: 6/1;
+    background-color: #bc632c;
+}
+.tres {
+
+    grid-column: 5/3;
+    grid-row: 2;
+    height: 250px;
+    width: 250px;
+    background-color: #d34040;
+}
